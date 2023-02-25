@@ -1,0 +1,18 @@
+DOG OR NOT??
+
+Using ML Learning to train resnet18 on different animal images and differentiate them from our primary target: 'Dogs'.
+
+As you initialize the Jupyter code, it will build a folder called "dog_or_not" and inside that folder it will populate more folders of animals with their corresponding images.
+
+We will train our model with these images to be able to correctly identify the unique animals and compare them to a dog with a probability of likeness
+
+Essentially, our model will return which 'Animal' it thinks is being fed into it, and return the probability of it being a 'dog'
+
+This is done by inputting the name of the test images in '/test_imgs/' i.e 'coyote.jpg' into our learn.predict() function
+
+### example ###
+learn.predict('coyote.jpg') 
+
+Feel free to explore with uploading different animals in our test_imgs folder.
+As of now, our model will only be able to identify the current animals: cat, dog, coyote, ferret, guinea pig, honey badger, rabbit, raccoon, skunk, wolf, and wolverine.
+
